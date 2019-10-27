@@ -1,0 +1,5 @@
+<input type="text"  maxlength="16" appDam (keypress)="numberOnly($event)" [(ngModel)]="num">
+
+<p>
+  <b>Result <br> {{ num | damdam : num }} </b>
+</p>
