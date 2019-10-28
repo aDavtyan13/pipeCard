@@ -11,7 +11,7 @@ export class AppComponent {
   dam = true;
 
 
-  kori(){
+  hideIt(){
     this.dam = false;
   }
 }
